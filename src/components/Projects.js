@@ -43,42 +43,6 @@ const projects = [
       { label: 'Source', url: 'https://github.com/jiya19g/sepm', type: 'github' },
     ]
   },
-  {
-    title: 'Weather App ☀️🌧️❄️',
-    subtitle: null,
-    date: 'April 2024',
-    image: weather,
-    description: 'A minimalist weather app that delivers instant forecasts with bold visuals and precise details—because Mother Nature waits for no one.',
-    tech: ['React', 'OpenWeatherMap API', 'CSS', 'Vercel'],
-    links: [
-      { label: 'Source', url: 'https://github.com/Hemannshu/WeatherApp', type: 'github' },
-      { label: 'Website', url: 'https://weather-app-hemannshu.vercel.app/', type: 'website' }
-    ]
-  },
-  {
-    title: 'OrganizeMe 🔄',
-    subtitle: null,
-    date: 'Oct 2023',
-    image: organize,
-    description: 'OrganizeMe is a simple and intuitive task management application built with React. It helps you keep track of your tasks and stay organized efficiently.',
-    tech: ['React', 'Redux', 'CSS', 'Vercel'],
-    links: [
-      { label: 'Website', url: 'https://organize-me-alpha.vercel.app/', type: 'website' },
-      { label: 'Source', url: 'https://github.com/Hemannshu/OrganizeMe', type: 'github' }
-    ]
-  },
-  {
-    title: 'Grabby🍜',
-    subtitle: null,
-    date: 'Oct 2023',
-    image: grabby,
-    description: 'Welcome to Grabby, your one-stop destination for ordering tempting food items online!',
-    tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'CSS', 'Vercel'],
-    links: [
-      { label: 'Source', url: 'https://github.com/Hemannshu/Grabby', type: 'github' },
-      { label: 'Website', url: 'https://grabby-website-chi.vercel.app/', type: 'website' }
-    ]
-  },
  
 ];
 
