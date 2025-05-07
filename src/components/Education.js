@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Education.css';
 
 const srmLogo = process.env.PUBLIC_URL + '/assets/srm-logo.png';
-const salwanLogo = process.env.PUBLIC_URL + '/assets/salwan-logo.png';
-const bluebellsLogo = process.env.PUBLIC_URL + '/assets/bluebells-logo.jpeg';
+const lpslogo = process.env.PUBLIC_URL + '/assets/lpslogo.jpg';
+const mpplogo = process.env.PUBLIC_URL + '/assets/manipallogo.jpg';
 
 const education = [
   {
@@ -13,30 +13,30 @@ const education = [
     location: 'Chennai, India',
     duration: '2022 – 2026',
     highlights: [
-      'GPA: 8.8/10',
+      'GPA: 9.56/10',
       'Specialization in Information Technology',
       'Relevant coursework: Data Structures, Algorithms, NLP, Computer Networks, Operating Systems, DBMS',
       'Active participant in hackathons and coding competitions'
     ]
   },
   {
-    school: 'Salwan Public School',
-    logo: salwanLogo,
+    school: 'Lucknow Public School',
+    logo: lpslogo,
     degree: 'Class 12 (CBSE)',
-    location: 'Gurgaon, India',
-    duration: '2020 – 2021',
+    location: 'Lucknow, India',
+    duration: '2020 – 2022',
     highlights: [
-      'Grade: 88.2% ',
+      'Grade: 90% ',
     ]
   },
   {
-    school: 'Blue Bells Public School',
-    logo: bluebellsLogo,
+    school: 'Manipal Public School',
+    logo: mpplogo,
     degree: 'Class 10 (CBSE)',
-    location: 'Gurgaon, India',
-    duration: '2018 – 2019',
+    location: 'Lucknow, India',
+    duration: '2018 – 2020',
     highlights: [
-      'Grade: 92%',
+      'Grade: 94%',
       'Foundation in STEM subjects',
       'Awarded for academic excellence',
       'Participated in national science exhibitions'

@@ -33,6 +33,17 @@ const projects = [
     ]
   }, 
   {
+    title: 'StudyBuddy🧑‍🎓🧑‍💻',
+    subtitle: null,
+    date: 'Nov 2023',
+    image: study,
+    description: 'StudyBuddy is a Flutter-Firebase app that helps students manage studies, explore opportunities, and connect with peers. It features secure login, unique usernames, and real-time data sync. Users can join study groups, track tasks, and get reminders. A built-in chatbot assists with tasks and queries. The app also lets students find jobs, explore resources, and improve productivity—all in one place.',
+    tech: ['Flutter', 'Firebase', 'GoogleMapsAPI', 'Node.js', 'MySQL'],
+    links: [
+      { label: 'Source', url: 'https://github.com/jiya19g/sepm', type: 'github' },
+    ]
+  },
+  {
     title: 'Weather App ☀️🌧️❄️',
     subtitle: null,
     date: 'April 2024',
@@ -68,17 +79,7 @@ const projects = [
       { label: 'Website', url: 'https://grabby-website-chi.vercel.app/', type: 'website' }
     ]
   },
-  {
-    title: 'StudyBuddy🧑‍🎓🧑‍💻',
-    subtitle: null,
-    date: 'Nov 2023',
-    image: study,
-    description: 'StudyBuddy is a Python-based web application built using the Django framework, designed to simplify and enhance the study experience for students. It offers a range of features that improve organization, collaboration, and productivity.',
-    tech: ['Python', 'Django', 'HTML', 'CSS', 'SQLite'],
-    links: [
-      { label: 'Source', url: 'https://github.com/Hemannshu/studybuddy', type: 'github' },
-    ]
-  }
+ 
 ];
 
 const GithubIcon = () => (

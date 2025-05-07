@@ -6,11 +6,11 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero-content">
         <div className="hero-text">
-          <h1>Hi 👋, I'm Himanshu</h1>
+          <h1>Hi 👋, I'm Tanya</h1>
           
           <p>Building full-stack solutions, designing with intent, and diving deep into systems — all while still an engineering student.</p>
         </div>
-        <img src={'/assets/profile.jpg'} alt="Himanshu Sharma" className="hero-profile" />
+        <img src={'/assets/profilepic.jpg'} alt="Tanya Yadav" className="hero-profile" />
       </div>
     </section>
   );

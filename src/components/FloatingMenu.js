@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./FloatingMenu.css";
 
-const RESUME_URL = "https://drive.google.com/file/d/1UlGnegZLCsVlHqoQkQdRl5kqBX6gh_D3/view?usp=sharing"; // Replace with your actual resume link
-const LINKEDIN_URL = "https://www.linkedin.com/in/myselfhimanshu/"; // Replace with your LinkedIn
-const GITHUB_URL = "https://github.com/Hemannshu"; // Replace with your GitHub
+const RESUME_URL = "https://drive.google.com/file/d/1smHdIaPKeUEx3t9Lis1vjlPRG9hh2NDl/view?usp=sharing"; // Replace with your actual resume link
+const LINKEDIN_URL = "https://www.linkedin.com/in/tanya-yadav-169a0826b/"; // Replace with your LinkedIn
+const GITHUB_URL = "https://github.com/TanyaYadav8266"; // Replace with your GitHub
 
 const FloatingMenu = () => {
   const [dark, setDark] = useState(false); // Always start in light mode

@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import './Experience.css';
 
 const arka = process.env.PUBLIC_URL + '/assets/arka.png';
-const dubg = process.env.PUBLIC_URL + '/assets/dubg.jpeg';
 const bharat = process.env.PUBLIC_URL + '/assets/bharat.png';
 const oaisis = process.env.PUBLIC_URL + '/assets/oaisis.jpeg';
+const codingninjas = process.env.PUBLIC_URL + '/assets/cnlogo.jpeg';
 
 const experiences = [
   {
     company: 'Arka Consultancy',
     logo: arka,
     title: 'SDE Intern',
-    duration: 'Aug 2024 - Nov 2024',
+    duration: 'May 2024 - June 2024',
     description: [
       'Developed and deployed cloud-based web applications using AWS services such as EC2, Lambda, and S3, supporting scalable infrastructure for over 10,000 concurrent users.',
        'Collaborated with cross-functional teams across engineering, product, and DevOps to design and implement enterprise-grade solutions with high availability and fault tolerance.',
@@ -22,17 +22,17 @@ const experiences = [
     skills: ['AWS', 'Java', 'C++','CI/CD','RESTful API' ,'Agile']
   },
   {
-    company: 'Dbug Labs',
-    logo: dubg,
-    title: 'Frontend Developer',
+    company: 'Coding Ninjas',
+    logo: codingninjas,
+    title: 'UI/UX Designer',
     duration: 'Oct 2023 - Mar 2025',
     description: [
-      'Led the design and development of an AI-powered code review platform, achieving a 20% improvement in code analysis accuracy through iterative model training and feedback integration.',
-       'Utilized platform metrics and user interaction data to identify performance bottlenecks and implement enhancements, resulting in faster review cycles and improved user satisfaction.',
-      'Additionally, organized and hosted a web-based training event for 50+ students, promoting adoption of the platform and fostering a community of early adopters and contributors.'
+      'Designed and optimized the UI/UX for an AI-powered platform, enhancing usability and reducing cognitive load, which led to a 30% improvement in user productivity and a 25% increase in engagement.',
+      'Leveraged user research and data analytics to identify pain points, implementing iterative design improvements that reduced bounce rates by 15% and accelerated review cycles.',
+      'Championed user adoption by organizing training workshops for 50+ developers, fostering a community of early adopters and streamlining platform onboarding.'
     ],
     location: 'Chennai, India',
-    skills: ['React', 'AI/ML', 'Flask','Python','Firebase','Git']
+    skills: ['Agile', 'AI/ML', 'UI/UX','Figma','Firebase','Git', 'Sketch']
   },
   {
     company: 'Oasis Infobyte',
