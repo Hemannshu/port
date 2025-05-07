@@ -7,6 +7,7 @@ const organize = process.env.PUBLIC_URL + '/assets/organize.png';
 const weather = process.env.PUBLIC_URL + '/assets/weather.png';
 const grabby = process.env.PUBLIC_URL + '/assets/grabby.png';
 const study = process.env.PUBLIC_URL + '/assets/studybuddy.png';
+const studybuddy = process.env.PUBLIC_URL + '/assets/studybuddylogo.jpg';
 
 const projects = [
   {
@@ -36,7 +37,7 @@ const projects = [
     title: 'StudyBuddy🧑‍🎓🧑‍💻',
     subtitle: null,
     date: 'Nov 2023',
-    image: study,
+    image: studybuddy,
     description: 'StudyBuddy is a Flutter-Firebase app that helps students manage studies, explore opportunities, and connect with peers. It features secure login, unique usernames, and real-time data sync. Users can join study groups, track tasks, and get reminders. A built-in chatbot assists with tasks and queries. The app also lets students find jobs, explore resources, and improve productivity—all in one place.',
     tech: ['Flutter', 'Firebase', 'GoogleMapsAPI', 'Node.js', 'MySQL'],
     links: [
