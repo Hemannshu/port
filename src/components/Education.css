@@ -1,0 +1,213 @@
+.education-section-badge {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 1.2rem;
+  padding: 0.3em 1.1em;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.02em;
+}
+.dark .education-section-badge {
+  background: var(--accent);
+} 
+.education-section-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0.2rem 0 0.7rem 0;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+.education {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.education-item {
+  background: var(--card-bg);
+  border-radius: 9px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  border: 1.5px solid var(--card-border);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  transition: box-shadow 0.18s, transform 0.18s;
+  position: relative;
+  padding: 0.85rem 1rem;
+}
+.education-item:hover {
+  box-shadow: 0 8px 32px 0 rgba(80, 120, 255, 0.13), 0 0 40px 0 #a5b4fc22;
+  transform: translateY(-4px) scale(1.025);
+  border-color: var(--accent);
+}
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+  transition: background 0.2s;
+}
+.education-header:hover {
+  background: var(--card-bg);
+}
+.school-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.school-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: var(--card-bg);
+  padding: 4px;
+  border: 1px solid var(--card-border);
+}
+.school-info h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: var(--text);
+}
+.school-info p {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+.education-meta {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.grade {
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+.duration {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+.expand-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  color: #6b7280;
+}
+.expand-icon.expanded {
+  transform: rotate(180deg);
+}
+.education-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  background: var(--card-bg);
+}
+.education-item.expanded .education-details {
+  max-height: 500px;
+  padding: 0 1.5rem 1.5rem;
+}
+.location {
+  font-size: 0.9rem;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+.highlights-list {
+  padding-left: 1.25rem;
+  margin: 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.highlights-list li {
+  color: var(--text);
+  line-height: 1.6;
+  position: relative;
+  list-style-type: none;
+  padding-left: 0.9rem;
+  font-size: 0.93rem;
+}
+.highlights-list li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+@media (max-width: 768px) {
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .education-meta {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 900px) {
+  .education {
+    padding: 1.2rem 0.2rem 1.2rem 0.2rem;
+  }
+  .education-section-title {
+    font-size: 1.5rem;
+  }
+  .education-item {
+    padding: 0.7rem 0.5rem;
+    max-width: 98vw;
+  }
+  .school-info h3 {
+    font-size: 0.98rem;
+  }
+  .school-info p {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 600px) {
+  .education {
+    padding: 0.5rem 0.1rem 0.5rem 0.1rem;
+  }
+  .education-section-title {
+    font-size: 1.1rem;
+  }
+  .education-item {
+    padding: 0.5rem 0.2rem;
+    min-width: 0;
+    max-width: 99vw;
+  }
+  .school-logo {
+    width: 32px;
+    height: 32px;
+  }
+  .school-info h3 {
+    font-size: 0.93rem;
+  }
+  .school-info p {
+    font-size: 0.8rem;
+  }
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .education-meta {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}

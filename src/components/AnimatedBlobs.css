@@ -1,0 +1,41 @@
+.blobs-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.dark .blobs-bg {
+  display: none;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(32px);
+  opacity: 0.25;
+}
+
+.blob1 {
+  top: -100px;
+  left: -100px;
+  width: 700px;
+  height: 700px;
+}
+
+.blob2 {
+  bottom: -100px;
+  right: -100px;
+  width: 700px;
+  height: 700px;
+}
+
+.blob3 {
+  top: 40vh;
+  left: 50vw;
+  width: 600px;
+  height: 600px;
+  transform: translate(-50%, -50%);
+}

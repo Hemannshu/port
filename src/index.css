@@ -1,0 +1,45 @@
+:root {
+  --bg: #fff;
+  --text: #18181b;
+  --card-bg: #fff;
+  --card-border: #e5e7eb;
+  --accent: #6366f1;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.card, .about-card, .experience-item, .education-item, .project-card-modern-small, .contact-card {
+  background: var(--card-bg);
+  border-color: var(--card-border);
+}
+
+.dark {
+  --bg: #18181b;
+  --text: #f3f4f6;
+  --card-bg: #23272f;
+  --card-border: #33364a;
+  --accent: #818cf8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+
