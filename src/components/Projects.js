@@ -36,7 +36,7 @@ const projects = [
   {
     title: 'StudyBuddy🧑‍🎓🧑‍💻',
     subtitle: null,
-    date: 'Nov 2023',
+    date: 'May 2025',
     image: studybuddy,
     description: 'StudyBuddy is a Flutter-Firebase app that helps students manage studies, explore opportunities, and connect with peers. It features secure login, unique usernames, and real-time data sync. Users can join study groups, track tasks, and get reminders. A built-in chatbot assists with tasks and queries. The app also lets students find jobs, explore resources, and improve productivity—all in one place.',
     tech: ['Flutter', 'Firebase', 'GoogleMapsAPI', 'Node.js', 'MySQL'],
